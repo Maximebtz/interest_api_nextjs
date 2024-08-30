@@ -1,0 +1,10 @@
+model Interest{
+    id      String    @id @default(auto()) @map("_id") @db.ObjectId
+    name    String
+    address String
+    city    String
+    cp      String
+    country String
+    long    Float
+    lat     Float
+}
